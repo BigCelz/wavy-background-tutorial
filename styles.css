@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.wavy{
+    min-height: 80vh;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(to right,red, white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+svg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.curve-btn{
+    padding: 12px 50px;
+    background-color: #fff !important;
+    color: black;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    /* transform: skew(-12deg) !important; */
+}
+
+.content-head{
+    font-family: cursive;
+    color: #fff;
+    margin-bottom: 30px !important;
+}
+
+
+
+
+
+
